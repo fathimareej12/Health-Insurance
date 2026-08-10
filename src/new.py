@@ -1,2 +1,2 @@
 def func1():
-    print('func1'-0)
+    print('func1')
