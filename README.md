@@ -3,7 +3,10 @@
 
 ## How to Install required Packages
 ```Python
-pip install -r requirement.txt```
+pip install -r requirement.txt
+```
+
+
 
 # Technologies
 
