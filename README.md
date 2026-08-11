@@ -2,8 +2,8 @@
  Health Insurance cross selling prediction
 
 ## How to Install required Packages
-'''Python
-pip install -r requirement.txt'''
+```Python
+pip install -r requirement.txt```
 
 # Technologies
 
