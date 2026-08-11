@@ -1,14 +1,25 @@
 # Health Insurance 
+ Health Insurance cross selling prediction
 
+## How to Install required Packages
+'''Python
+pip install -r requirement.txt'''
 
-#Technologies
+# Technologies
+
 -python
+
 -machine learning
+
 -Post sql
+
 -Fast API
+
 -Streamlit
+
 -Docker
+
 -AWS
 
-##Status
+## Status
 Project under development
