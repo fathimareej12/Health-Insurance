@@ -15,7 +15,11 @@ def basic_eda(data:pd.DataFrame):
     print('\n Policy sales channel Distribution')
     print(data['Policy_Sales_Channel'].value_counts())
 
+    print('\n Age Distribution')
+    print(data['Age'].value_counts())
+
     print(pd.crosstab(data['Vehicle_Age'],data['Vehicle_Damage']))
+
 
 
 
