@@ -1,0 +1,38 @@
+          
+ Exploratory data analysis 
+           ==================================================
+ Dataset shape: (381109, 12) 
+
+ Target variable Distribution 
+Response
+0    334399
+1     46710
+Name: count, dtype: int64
+ Policy sales channel Distribution 
+Policy_Sales_Channel
+152.0    134784
+26.0      79700
+124.0     73995
+160.0     21779
+156.0     10661
+          ...  
+149.0         1
+43.0          1
+144.0         1
+143.0         1
+41.0          1
+Name: count, Length: 155, dtype: int64
+ Age Distribution
+Age
+24    25960
+23    24256
+22    20964
+25    20636
+21    16457
+      ...  
+81       56
+82       29
+83       22
+84       11
+85       11
+Name: count, Length: 66, dtype: int64
