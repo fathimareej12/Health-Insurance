@@ -1,4 +1,5 @@
 import pandas as pd
+from config.paths import DATA_PATH
 
 def load_data():
     '''
@@ -7,7 +8,7 @@ def load_data():
     '''
 
 
-    data=pd.read_csv('Data/Raw Data/train.csv')
+    data=pd.read_csv(DATA_PATH / 'train.csv')
     return data
 
 if __name__=='__main__':

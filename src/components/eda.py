@@ -1,8 +1,7 @@
 import pandas as pd
 import os
+from config.paths import REPORTS_PATH
 
-Artifacts_path = "../../artifacts/reports"
-os.makedirs(Artifacts_path,exist_ok=True)
 
 def basic_eda(data:pd.DataFrame):
     print('Exploratory data analysis'.center(50))
@@ -24,11 +23,10 @@ def basic_eda(data:pd.DataFrame):
     print(pd.crosstab(data['Vehicle_Age'], data['Vehicle_Damage']))
 
 
-    with open('dataset_summary.txt','w')as file:
-        print('started')
+    with open(REPORTS_PATH/'dataset_summary.txt','w')as file:
+
         file.write('\n Exploratory data analysis \n'.center(50))
         file.write('=' * 50)
-        print('mid')
 
         file.write(f'\n Dataset shape: {data.shape} \n')
 
