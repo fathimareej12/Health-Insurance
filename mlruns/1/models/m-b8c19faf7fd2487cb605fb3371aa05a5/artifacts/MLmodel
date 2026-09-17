@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/fathi/PycharmProjects/HealthInsurance/mlruns/1/models/m-b8c19faf7fd2487cb605fb3371aa05a5/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.13
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.16.0
+model_id: m-b8c19faf7fd2487cb605fb3371aa05a5
+model_size_bytes: 19350452
+model_uuid: m-b8c19faf7fd2487cb605fb3371aa05a5
+prompts: null
+run_id: 80104379a5a0490f988688c2e2a70c65
+utc_time_created: '2026-09-14 10:43:52.650336'
